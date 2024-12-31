@@ -1,88 +1,36 @@
-# Arrancar proyecto
-```
-npm create vite@latest
-```
-
-# Arrancar GIT:
-```
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/hectoralvaez/hectoralvaez.git
-git push -u origin main
-```
-
-# Instalar plugin vite react
-```
-npm install @vitejs/plugin-react -E
-```
-
-# Instalar react react-dom
-```
-npm install react react-dom -E
-```
-
-# Configuración de VITE
-## vite.config.js
-```javascript
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-
-export default defineConfig({
-    plugins: [react()]
-})
-```
-
-# Iniciar main.js
-
-```javascript
-import { createRoot } from "react-dom/client";
-
-const root = createRoot(document.getElementById('app'))
-root.render(<h1>Hello, World!</h1>)
-```
-
-# Pasar main.js a main.jsx
-En Vite los archivos js no transpilan, hay que pasarlos a jsx.
-
-# Instalar linter
-```
-npm install standard -D
-```
-
-Añadir a mano la configuración de lint (`eslintConfig`) en `package.json`:
-
-```
-"eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
-}
-```
-
-# Arrancar App.jsx
-
-1. Crear `App.jsx` en la carpeta `src`
-
-```javascript
-export function App () {
-    return(
-        <h1>Zenodoto</h1>
-    )
-}
-```
-
-2. Importar `App` en `main.jsx`
-```javascript
-import { App } from "./src/App";
-...
-root.render(<App />);
-```
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=white)
 
 
-# Arrancar el proyecto
-```
-npm run dev
-```
+# ¡Hola! 👋
 
-# Arrancar el proyecto con "host"
-```
-npm run dev -- --host
-```
+Soy un desarrollador frontend apasionado por crear interfaces web modernas, dinámicas y accesibles. Me encanta trabajar con tecnologías como HTML, CSS, JavaScript y, especialmente, React. Siempre estoy buscando nuevos desafíos que me permitan crecer y aprender en el desarrollo web.
+
+
+## 🚀 Habilidades
+- **Lenguajes:** JavaScript (ES6+), HTML5, CSS3
+- **Librerías y Frameworks:** React, Redux, Express.js
+- **Backend y Bases de Datos:** Node.js, MongoDB
+- **Herramientas:** VS Code, Git, GitHub, Postman, Jest, Vite, Figma
+- **Metodologías y Prácticas:** Desarrollo de aplicaciones con el stack MERN (MongoDB, Express, React, Node.js), manejo de Context API, implementación de pruebas unitarias, diseño de interfaces con Figma
+
+## 🎯 Mi objetivo
+
+Estoy buscando oportunidades para colaborar en proyectos desafiantes como desarrollador frontend, donde pueda aplicar mis habilidades con React y seguir creciendo profesionalmente. Siempre estoy abierto a aprender nuevas tecnologías y mejorar mis habilidades.
+
+
+## 📫 Contacto
+
+- [LinkedIn](https://www.linkedin.com/in/hector-penalva-pelaez/)
+
+¡Hablemos sobre cómo podemos colaborar en proyectos emocionantes! 🚀
